@@ -26,7 +26,7 @@ function App() {
       <Team />
       <Services />
       <WhyChooseUs />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <Modal content={modalContent} onClose={() => setModalContent(null)} />
 

@@ -8,6 +8,7 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
+import Projects from './components/Projects';
 
 function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       <Team />
       <Services />
       <WhyChooseUs />
+      <Projects/>
       {/* <Contact /> */}
       <Footer />
       <Modal content={modalContent} onClose={() => setModalContent(null)} />

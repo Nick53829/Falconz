@@ -65,7 +65,7 @@ export default function Team() {
       role: "Full Stack Developer",
       description: "Engineering brilliant, responsive systems",
       skills: ["React.js", "Node.js", "MongoDB", "UI/UX"],
-      image: "/shariq.jpeg",
+      image: "/shariq.png",
     },
     {
       name: "Muhammad Adeel",
